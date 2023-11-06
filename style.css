@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  /* Adjust the spacing between cards as needed */
+}
+.maincon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.card {
+  width: 4rem; /* Set a fixed width for each card */
+  margin-right: 3px;
+  margin-top: 30px; /* Adjust the margin to add space between cards */
+}
+
+body {
+  background: linear-gradient(to bottom, #3498db, #9b59b6);
+  /* Adjust the angles and color codes to your preference */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.custom-card {
+  background-image: url("https://source.unsplash.com/random?city");
+
+  background-repeat: no-repeat;
+  height: 600%; /* Set the height to match the card body */
+  width: 80%; /* Set the width to match the card body */
+  color: white; /* Set text color to white for visibility */
+}
+
+.highlight {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+}
+.square-image {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Same height as the width to make it squared */
+  margin: 0 auto; /* Center the image horizontally */
+  overflow: hidden; /* Hide any excess image outside the square */
+  border-radius: 10px; /* Add rounded corners for a neat look */
+}
+
+.timecss {
+  color: green;
+  background-color: aqua;
+  text-align: center;
+  margin-left: 450px;
+  padding: 10px;
+}

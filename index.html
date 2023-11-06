@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#"><strong>Weather App</strong></a>
+          <span id="time" class="timecss">TIme loading...</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto">
+              <!-- Add your navigation links here -->
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+              <input
+                id="searchInput"
+                class="form-control me-2"
+                type="text"
+                placeholder="Search City"
+              />
+              <button id="searchButton" class="btn btn-info" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- place navbar here -->
+    </header>
+    <main class="container d-flex flex-row maincon">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 id="cityName" class="card-title">City name</h5>
+          <p id="temperature" class="card-text">Temperature</p>
+          <p id="feelsLike" class="card-text">Feels like</p>
+          <p id="humidity" class="card-text">Humidity</p>
+          <p id="minMaxTemp" class="card-text">Min/Max Temperature</p>
+          <p id="wind" class="card-text">Wind</p>
+          <p id="sunrise" class="card-text">Sunrise</p>
+          <p id="sunset" class="card-text">Sunset</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- place footer here -->
+      <span class="maincon"
+        >Website created by&nbsp;<strong
+          ><a href="https://github.com/UtkF2" target="_blank"
+            >Utkarsh Gupta</a
+          ></strong
+        ></span
+      >
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
